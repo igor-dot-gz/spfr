@@ -7,9 +7,6 @@
 #
 
 from subprocess import call#for importing colour
-for color in('c'): #cycles through different colours
-    call('cls', shell=True) #clears the screen
-    call('color ' + color, shell=True)
 
 
 from time import sleep #For waiting
@@ -422,12 +419,14 @@ def main():#Defined as function to be able to loop program
     
     if answer == var2:
         print("Correct! :)")
+        call('color A0', shell=True)
         sleep(2)
         os.system('cls')
         main()
     elif answer != stem + var2:
         print("Incorrect. :(")
         print("Correct Answer: " + stem + var2 + " ")
+        call('color C0', shell=True)
         sleep(2)
         go()
         os.system('cls')
@@ -460,9 +459,9 @@ sleep(2)
 os.system('cls')
 
 if la = a:
-    call('color 4E', shell = True)
+    call('color 4E', shell=True)
 elif la = b:
-    call('color 17', shell = True)
+    call('color 17', shell=True)
 
 
 
