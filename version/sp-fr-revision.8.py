@@ -6,8 +6,6 @@
 # (c) Jess Teale 2017
 #
 
-import writefile
-
 from subprocess import call#for importing colour
 from time import sleep #For waiting
 import random #For randomisation of question
@@ -419,8 +417,6 @@ def main():#Defined as function to be able to loop program
     
     if answer == var2:
         print("Correct! :)")
-        check = "Correct! :)"
-        writefile.write()
         call('color A0', shell = True)
         sleep(2)
         if la == 'a':
@@ -431,8 +427,6 @@ def main():#Defined as function to be able to loop program
         main()
     elif answer != stem + var2:
         print("Incorrect. :(")
-        check = "Incorrect"
-        writefile.write()
         print("Correct Answer: " + stem + var2 + " ")
         call('color C0', shell = True)
         sleep(2)
