@@ -6,8 +6,9 @@
 # (c) Jess Teale 2017
 #
 
-from subprocess import call#for importing colour
+import writefile
 
+from subprocess import call#for importing colour
 from time import sleep #For waiting
 import random #For randomisation of question
 import os #For cls/clear
