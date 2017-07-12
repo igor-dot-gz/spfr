@@ -24,7 +24,7 @@ la = None
 te = None
 foo = None
 
-ctypes.windll.kernel32.SetConsoleTitleW("Spanish and French Verb Ending(s) Revision")#Shell window title
+ctypes.windll.kernel32.SetConsoleTitleW("SpFr Verbs - Version 1.0")#Shell window title
 
 def go():#Used instead of os.system('pause') to not show errors
     foo = input("Press enter to continue...")
