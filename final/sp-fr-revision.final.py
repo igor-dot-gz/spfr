@@ -2,8 +2,8 @@
 
 #
 # Credit to Jess Teale for original idea
-# (c) Igor Smolinski 2017
-# (c) Jess Teale 2017
+# (c) 2017 Igor Smolinski
+# (c) 2017 Jess Teale
 #
 
 from subprocess import call#for importing colour
